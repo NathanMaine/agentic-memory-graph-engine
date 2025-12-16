@@ -1,0 +1,11 @@
+{
+  "meeting_id": "demo-meeting",
+  "events": [
+    {"id": "event-1", "speaker": "Alice", "text": "Project kickoff", "type": "info"},
+    {"id": "event-2", "speaker": "Bob", "text": "Raise risk about timeline", "type": "risk"},
+    {"id": "decision-1", "speaker": "Team", "text": "Ship MVP in two sprints", "type": "decision"}
+  ],
+  "references": [
+    {"from": "decision-1", "to": "event-2", "label": "addresses"}
+  ]
+}

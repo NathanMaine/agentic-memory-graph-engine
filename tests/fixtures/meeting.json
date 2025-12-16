@@ -1,0 +1,10 @@
+{
+  "meeting_id": "test-meeting",
+  "events": [
+    {"id": "event-1", "speaker": "Ann", "text": "Discuss scope", "type": "info"},
+    {"id": "decision-1", "speaker": "Team", "text": "Move forward", "type": "decision"}
+  ],
+  "references": [
+    {"from": "decision-1", "to": "event-1", "label": "based_on"}
+  ]
+}
